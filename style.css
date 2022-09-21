@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@200 & family= Roboto:ital,wght@0,300;0,500;1,100 & display=swap');
+body{
+    margin: 0;
+    font-family:"oswald" , sans-serif ;
+    background-color: rgb(249,249,249);
+    background-image: url(rocket.png);
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 8 4px 10px rgba(0,0,0,0.25);
+    display: flex;
+    height: 100px;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 130px;
+
+}
+.navbar li{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 410px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff6568;
+}
+.entery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250 px 1fr));
+}
+.title h2{
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.moon{
+    width:100% ;
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    background: #ff6568;
+}
+.btn:focus{
+    outline: none;
+}  
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration:300ms;
+}
+.scroll{
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:600px){
+    .navbar
+    body{
+        background: none;
+    }
+}
+.navbar ul{
+    display: none;
+}
+.btn{
+  position: relative; 
+  width: 30px;
+  height: 30px;
+   top: -20px;
+  left: 130px;
+  font-size: 13px;
+}
+.title h2{
+    position: relative;
+    left: 25px;
+    top: -20px;
+    margin-top:  50px;
+    font-size: 2rem;
+}
+.moon{
+    width: 90%;
+    margin: 0 10px;
+}
+.scroll{
+    position: relative;
+    margin-top: 10px;
+    left: 130px;
+}
